@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+html{
+    font-size: 10px;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;    
+}
+
+body{
+    font-size: 1.6rem;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer";
+    grid-template-rows: auto auto auto;
+}
+
+header{
+
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+main{
+    background-color: wheat;
+    grid-area: main;
+}
+
+
+footer{
+    background-color: cadetblue;
+    grid-area: footer;
+
+}
